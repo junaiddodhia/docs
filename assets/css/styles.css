@@ -22,22 +22,24 @@ html, body {
 
 /* Header Styling */
 header {
-    background-color: #0b1a33; /* Matches body background */
-    padding: 2rem; /* Consistent padding */
-    text-align: left;
+    background-color: #0b1a33; /* Navy blue background */
+    padding: 2rem; /* Add space inside the header */
+    border-bottom: 1px solid #1a2d50; /* Subtle separator line */
+    text-align: left; /* Align text to the left */
 }
 
 header h1 {
     margin: 0;
-    color: #ffffff; /* White for the header */
+    color: #ffffff; /* White text for the title */
     font-size: 2rem;
     font-weight: 600;
 }
 
 header p {
-    margin: 0.5rem 0 0 0;
-    color: #99aabb; /* Muted Gray for secondary text */
+    margin-top: 0.5rem;
+    color: #99aabb; /* Muted gray for the tagline */
     font-size: 1rem;
+    line-height: 1.5;
 }
 
 /* Footer Styling */
