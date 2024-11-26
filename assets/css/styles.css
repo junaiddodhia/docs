@@ -1,12 +1,13 @@
-/* General Styling */
+/* General Styling for Body */
 body {
     background-color: #0d1117; /* Dark background */
     color: #c9d1d9; /* Light text */
-    font-family: 'Inter', sans-serif; /* OpenAI-style font */
+    font-family: 'Inter', sans-serif; /* Clean font */
     font-size: 16px;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    text-align: left; /* Ensures all text is aligned to the left */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,11 +43,11 @@ pre {
     color: #c9d1d9;
 }
 
-/* Layout Container */
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem 1rem;
+    text-align: justify; /* Justify text inside content containers */
 }
 
 /* Header and Footer */
