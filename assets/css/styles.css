@@ -57,8 +57,8 @@ a {
 }
 
 a:hover {
+    color: #79c0ff; /* Slightly lighter blue */
     text-decoration: underline;
-    color: #1ed3fb; /* Consistent hover color */
 }
 
 /* Code Styling */
@@ -134,4 +134,12 @@ button:hover {
 ::-webkit-scrollbar-thumb {
     background-color: #99aabb; /* Muted Gray for thumb */
     border-radius: 4px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+p {
+    color: #99aabb; /* Muted gray for secondary text */
 }
