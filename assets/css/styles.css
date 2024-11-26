@@ -5,11 +5,11 @@ html, body {
     padding: 0;
     display: flex;
     flex-direction: column; /* Flexbox layout for sticky footer */
-    background-color: #0d1117; /* Dark background */
-    color: #c9d1d9; /* Light text */
+    background-color: #0b1a33; /* Navy Blue Background */
+    color: #ffffff; /* White Font Color */
     font-family: 'Inter', sans-serif; /* Clean font */
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.8; /* Slightly increased line spacing */
     text-align: left; /* Align all text to the left */
 }
 
@@ -19,55 +19,54 @@ html, body {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem 1rem;
-    text-align: justify; /* Justify text inside content containers */
+    text-align: left; /* Left-align all content */
 }
 
 /* Header Styling */
 header {
-    background-color: #161b22;
-    padding: 1rem 0;
-    text-align: left; /* Align header content to the left */
-    padding-left: 2rem; /* Add padding for visual alignment */
+    background-color: #0b1a33; /* Matches body background */
+    padding: 1.5rem 2rem;
+    text-align: left;
 }
 
 header h1 {
     margin: 0;
-    color: #ffffff;
-    font-size: 1.8rem;
+    color: #ffffff; /* White for the header */
+    font-size: 2rem;
     font-weight: 600;
 }
 
 header p {
-    margin: 0;
-    color: #c9d1d9;
+    margin: 0.5rem 0 0 0;
+    color: #99aabb; /* Muted Gray for secondary text */
     font-size: 1rem;
 }
 
 /* Footer Styling */
 footer {
-    background-color: #161b22;
-    padding: 1rem 0;
-    text-align: center;
-    color: #ffffff;
+    background-color: #0b1a33; /* Matches body background */
+    padding: 1rem 2rem;
+    text-align: left; /* Align footer text to the left */
+    color: #ffffff; /* White font color */
     font-size: 0.9rem;
-    position: relative;
 }
 
 /* Anchor Links */
 a {
-    color: #58a6ff; /* Subtle blue for links */
+    color: #1ed3fb; /* Sky Blue for links */
     text-decoration: none;
+    font-weight: 500;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #79c0ff; /* Slightly lighter blue on hover */
+    color: #1ed3fb; /* Consistent hover color */
 }
 
 /* Code Styling */
 code {
-    background-color: #161b22; /* Slightly darker background for code blocks */
-    color: #c9d1d9;
+    background-color: #0b1a33; /* Same as body background for harmony */
+    color: #1ed3fb; /* Sky Blue for code text */
     padding: 2px 4px;
     border-radius: 4px;
     font-family: 'Courier New', Courier, monospace;
@@ -75,11 +74,11 @@ code {
 }
 
 pre {
-    background-color: #161b22; /* Darker background for preformatted code */
+    background-color: #0b1a33; /* Same background for pre blocks */
     padding: 1rem;
     border-radius: 6px;
     overflow-x: auto;
-    color: #c9d1d9;
+    color: #ffffff; /* White for code content */
 }
 
 /* Lists */
@@ -90,6 +89,7 @@ ul, ol {
 
 li {
     margin-bottom: 0.5rem;
+    color: #ffffff; /* White list text */
 }
 
 /* Tables */
@@ -97,25 +97,25 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 1rem 0;
-    background-color: #161b22;
-    color: #c9d1d9;
+    background-color: #0b1a33; /* Same as body */
+    color: #ffffff; /* White text for tables */
 }
 
 th, td {
-    border: 1px solid #30363d;
+    border: 1px solid #99aabb; /* Muted Gray for borders */
     padding: 0.5rem 1rem;
     text-align: left;
 }
 
 th {
-    background-color: #21262d;
+    background-color: #1a2d50; /* Slightly darker navy for header */
     font-weight: bold;
 }
 
 /* Buttons */
 button {
-    background-color: #238636;
-    color: #ffffff;
+    background-color: #1ed3fb; /* Sky Blue for buttons */
+    color: #ffffff; /* White text */
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -124,16 +124,16 @@ button {
 }
 
 button:hover {
-    background-color: #2ea043;
+    background-color: #17b8e6; /* Slightly darker sky blue */
 }
 
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
     width: 8px;
-    background-color: #161b22;
+    background-color: #0b1a33; /* Matches body background */
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #30363d;
+    background-color: #99aabb; /* Muted Gray for thumb */
     border-radius: 4px;
 }
