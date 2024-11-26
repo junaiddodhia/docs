@@ -1,21 +1,59 @@
 /* General Styling for Body */
-body {
+html, body {
+    height: 100%; /* Full viewport height */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Flexbox layout for sticky footer */
     background-color: #0d1117; /* Dark background */
     color: #c9d1d9; /* Light text */
     font-family: 'Inter', sans-serif; /* Clean font */
     font-size: 16px;
     line-height: 1.6;
+    text-align: left; /* Align all text to the left */
+}
+
+/* Main Content Area */
+.container {
+    flex: 1; /* Expands to fill available space */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: justify; /* Justify text inside content containers */
+}
+
+/* Header Styling */
+header {
+    background-color: #161b22;
+    padding: 1rem 0;
+    text-align: left; /* Align header content to the left */
+    padding-left: 2rem; /* Add padding for visual alignment */
+}
+
+header h1 {
     margin: 0;
-    padding: 0;
-    text-align: left; /* Ensures all text is aligned to the left */
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #ffffff; /* White for headings */
+    color: #ffffff;
+    font-size: 1.8rem;
     font-weight: 600;
-    margin-bottom: 1rem;
 }
 
+header p {
+    margin: 0;
+    color: #c9d1d9;
+    font-size: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #161b22;
+    padding: 1rem 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9rem;
+    position: relative;
+}
+
+/* Anchor Links */
 a {
     color: #58a6ff; /* Subtle blue for links */
     text-decoration: none;
@@ -26,6 +64,7 @@ a:hover {
     color: #79c0ff; /* Slightly lighter blue on hover */
 }
 
+/* Code Styling */
 code {
     background-color: #161b22; /* Slightly darker background for code blocks */
     color: #c9d1d9;
@@ -41,26 +80,6 @@ pre {
     border-radius: 6px;
     overflow-x: auto;
     color: #c9d1d9;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-    text-align: justify; /* Justify text inside content containers */
-}
-
-/* Header and Footer */
-header, footer {
-    background-color: #161b22;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-header h1, footer p {
-    margin: 0;
-    color: #ffffff;
-    font-size: 1.2rem;
 }
 
 /* Lists */
@@ -108,7 +127,7 @@ button:hover {
     background-color: #2ea043;
 }
 
-/* Dark Mode Extras */
+/* Scrollbar Styling */
 ::-webkit-scrollbar {
     width: 8px;
     background-color: #161b22;
