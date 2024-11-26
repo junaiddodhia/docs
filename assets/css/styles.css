@@ -16,16 +16,14 @@ html, body {
 /* Main Content Area */
 .container {
     flex: 1; /* Expands to fill available space */
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 2rem; /* Consistent padding */
     text-align: left; /* Left-align all content */
 }
 
 /* Header Styling */
 header {
     background-color: #0b1a33; /* Matches body background */
-    padding: 1.5rem 2rem;
+    padding: 2rem; /* Consistent padding */
     text-align: left;
 }
 
@@ -45,7 +43,7 @@ header p {
 /* Footer Styling */
 footer {
     background-color: #0b1a33; /* Matches body background */
-    padding: 1rem 2rem;
+    padding: 2rem; /* Consistent padding */
     text-align: left; /* Align footer text to the left */
     color: #ffffff; /* White font color */
     font-size: 0.9rem;
