@@ -1,3 +1,47 @@
-title: "API Docs & Tech Writing Samples"
-description: "This repository contains API documentation and technical writing samples."
-theme: jekyll-theme-hacker
+# Basic Site Settings
+title: "Junaid's Documentation Portfolio"
+description: "Showcasing API documentation projects with clean and minimal design."
+baseurl: "" # Leave blank for the root of your custom domain
+url: "https://junaidd.me" # Your live site URL
+
+# Markdown and Plugins
+markdown: kramdown
+kramdown:
+  input: GFM # GitHub Flavored Markdown for tables and advanced features
+
+# Styling and Assets
+sass:
+  style: compressed # Minifies CSS if using SCSS
+
+# Exclude These Files from Processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Plugins for Additional Features
+plugins:
+  - jekyll-sitemap # Generates a sitemap.xml for SEO
+  - jekyll-seo-tag # Adds meta tags for SEO
+  - jekyll-feed # Adds an RSS feed
+
+# Defaults for Pages
+defaults:
+  - scope:
+      path: "" # Applies to all files
+    values:
+      layout: default
+
+# Collections for API Projects (Optional)
+collections:
+  cloud-storage:
+    output: true
+    permalink: /cloud-storage/:path/
+  ml-inference:
+    output: true
+    permalink: /ml-inference/:path/
+
+# Author Information (Optional for Metadata)
+author:
+  name: "Junaid Dodhia"
+  email: "your-email@example.com"
